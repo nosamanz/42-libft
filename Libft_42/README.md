@@ -1,2 +1,3 @@
 <h1 align="center">
-	42cursus' libft
+	42cursus
+	Libft
