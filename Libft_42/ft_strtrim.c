@@ -10,45 +10,45 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-static int	ft_getstart(const char *s1, const char *set)
+static int ft_getstart(const char *s1, const char *set)
 {
-	size_t	len;
-	size_t	i;
+	size_t len;
+	size_t i;
 
 	len = ft_strlen(s1);
 	i = 0;
 	while (i < len)
 	{
 		if (ft_strchr(set, s1[i]) == 0)
-			break ;
+			break;
 		i++;
 	}
 	return (i);
 }
 
-static int	ft_getend(const char *s1, const char *set)
+static int ft_getend(const char *s1, const char *set)
 {
-	size_t	len;
-	size_t	i;
+	size_t len;
+	size_t i;
 
 	len = ft_strlen(s1);
 	i = 0;
 	while (i < len)
 	{
 		if (ft_strchr(set, s1[len - i - 1]) == 0)
-			break ;
+			break;
 		i++;
 	}
 	return (len - i);
 }
 
-char	*ft_strtrim(char const *s1, char const *set)
+char *ft_strtrim(char const *s1, char const *set)
 {
-	int		start;
-	int		end;
-	char	*newstr;
+	int start;
+	int end;
+	char *newstr;
 
 	if (s1 == NULL)
 		return (NULL);

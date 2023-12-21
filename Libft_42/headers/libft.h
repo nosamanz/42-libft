@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+// # include ""
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -50,5 +51,8 @@ char	*ft_strtrim(char const *s1, char const *set);
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
+//[FT_PRINTF]
+int	ft_printf(const char *str, ...);
+
 
 #endif

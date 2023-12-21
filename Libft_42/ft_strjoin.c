@@ -10,13 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char *ft_strjoin(char const *s1, char const *s2)
 {
-	char	*string;
-	int		i;
-	int		end_s1;
+	char *string;
+	int i;
+	int end_s1;
 
 	if (!s1 || !s2)
 		return (NULL);

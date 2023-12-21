@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-char	*ft_strchr(const char *str, int c)
+char *ft_strchr(const char *str, int c)
 {
 	if (c > 127)
 		return ((char *)str);

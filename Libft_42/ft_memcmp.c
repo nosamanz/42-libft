@@ -9,12 +9,12 @@
 /*   Updated: 2022/02/18 13:01:42 by oozcan           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
+int ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	unsigned char	*ptr;
-	unsigned char	*ptr2;
+	unsigned char *ptr;
+	unsigned char *ptr2;
 
 	ptr = (unsigned char *)s1;
 	ptr2 = (unsigned char *)s2;

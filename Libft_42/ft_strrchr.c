@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+char *ft_strrchr(const char *s, int c)
 {
-	char	*last_pos;
+	char *last_pos;
 
 	last_pos = 0;
 	if (c > 127)

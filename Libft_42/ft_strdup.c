@@ -10,13 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-char	*ft_strdup(const char *s1)
+char *ft_strdup(const char *s1)
 {
-	char	*s2;
-	int		len;
-	int		i;
+	char *s2;
+	int len;
+	int i;
 
 	len = ft_strlen(s1);
 	s2 = malloc(sizeof(char) * len + 1);

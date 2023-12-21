@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"
 
-static char	*set_str(int n, int *bas)
+static char *set_str(int n, int *bas)
 {
-	char	*str;
+	char *str;
 
 	*bas = 1;
 	if (n < 0)
@@ -35,10 +35,10 @@ static char	*set_str(int n, int *bas)
 	return (str);
 }
 
-char	*ft_itoa(int n)
+char *ft_itoa(int n)
 {
-	char	*str;
-	int		bas;
+	char *str;
+	int bas;
 
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));

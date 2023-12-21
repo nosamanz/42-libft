@@ -10,14 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"
 
-char	*ft_substr(char const *s, unsigned int start, size_t len)
+char *ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t	a;
-	char	*b;
-	size_t	c;
-	size_t	sub_len;
+	size_t a;
+	char *b;
+	size_t c;
+	size_t sub_len;
 
 	sub_len = 0;
 	c = ((size_t)start);

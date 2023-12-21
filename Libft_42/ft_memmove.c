@@ -9,12 +9,12 @@
 /*   Updated: 2022/02/05 23:24:37 by oozcan           ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t len)
+void *ft_memmove(void *dest, const void *src, size_t len)
 {
-	char	*ptr_dest;
-	char	*ptr_src;
+	char *ptr_dest;
+	char *ptr_src;
 
 	ptr_dest = (char *)dest;
 	ptr_src = (char *)src;

@@ -10,12 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"/libft.h"
 
-static int	count_strings(char const *s, char c)
+static int count_strings(char const *s, char c)
 {
-	int	act_pos;
-	int	str_count;
+	int act_pos;
+	int str_count;
 
 	act_pos = 0;
 	str_count = 0;
@@ -31,10 +31,10 @@ static int	count_strings(char const *s, char c)
 	return (str_count);
 }
 
-static char	*malloc_strings(const char *s, char c)
+static char *malloc_strings(const char *s, char c)
 {
-	char	*word;
-	int		i;
+	char *word;
+	int i;
 
 	i = 0;
 	while (s[i] && s[i] != c)
@@ -52,11 +52,11 @@ static char	*malloc_strings(const char *s, char c)
 	return (word);
 }
 
-char	**ft_split(char const *s, char c)
+char **ft_split(char const *s, char c)
 {
-	int		words;
-	char	**tab;
-	int		i;
+	int words;
+	char **tab;
+	int i;
 
 	if (!s)
 		return (NULL);

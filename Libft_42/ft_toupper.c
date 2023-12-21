@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "./header/libft.h"
 
-int	ft_toupper(int x)
+int ft_toupper(int x)
 {
 	if (x >= 'a' && x <= 'z')
 	{
